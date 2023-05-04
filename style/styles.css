@@ -1,0 +1,123 @@
+body {
+    background-color: var(--main-bg);
+    color: var(--main-fg);
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Noto Serif', Arial, sans-serif;
+}
+
+.search-container {
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.search-container h1 {
+    font-size: 70px;
+}
+
+
+input[type=search] {
+    outline: none;
+    border: 2px solid var(--search-border);
+    border-radius: 5px;
+    padding: 7px;
+    color: var(--main-fg);
+    background-color: var(--search--bg);
+    width: 300px;
+
+}
+
+.searchb {
+    margin-top: 15px;
+}
+
+button[type=submit] {
+    outline: none;
+    border: 2px solid var(--search-border);
+    border-radius: 5px;
+    padding: 7px;
+    width: 80px;
+    color: var(--main-fg);
+    background-color: var(--search--bg);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button[type=submit]:hover {
+    border: 2px solid rgb(36, 61, 61);
+    background-color: var(--search--bg-hover);
+    color: var(--search--fg-hover);
+    cursor: pointer;
+}
+
+.search-container {
+    margin-bottom: 25px;
+}
+
+.search-content {
+    padding-left: 100px;
+    padding-top: 65px;
+}
+
+.smalllogo {
+    font-size: 24px;
+}
+
+.mini-search-container {
+    border-bottom: 2px solid var(--search-border);
+    background-color: var(--main-bg);
+    padding: 8px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.a-result {
+    background-color: var(--search--bg);
+    max-width: 700px;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: small;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.minilink {
+    color: var(--minilink);
+    text-decoration: none;
+    font-size: small;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.title, .description {
+    color: var(--result);
+    text-decoration: none;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid var(--search-border);
+    background-color: rgb(36,36,36);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: var(--footer-link);
+    padding-right: 4px;
+    padding-left: 4px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: var(--footer-link-hover);
+}

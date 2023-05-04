@@ -1,0 +1,16 @@
+:root {
+    --main-bg: rgb(26, 26, 26);
+    --main-fg: white;
+
+    --search-border: darkslategray;
+    --search-bg: rgb(36, 36, 36);
+    --search-bg-hover: rgb(29, 29, 29);
+    --search-fg-hover: rgb(206, 206, 206);
+
+    --minilink: rgb(197, 197, 197);
+    --result: rgb(212, 241, 253);
+
+    --footer-link: gray;
+    --footer-link-hover: rgb(150, 150, 150);
+    --footer-bg: rgb(36,36,36);
+}
